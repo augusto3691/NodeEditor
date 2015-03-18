@@ -1,0 +1,127 @@
+/** DISABLE TEXT SELECTION (SET ON BODY WHEN DRAGGING IS OCCURRING) **/
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/OpenSans-Regular-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/OpenSans-Regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/OpenSans-Regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/OpenSans-Regular-webfont.svg#svgBebas') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('fonts/OpenSans-Bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/OpenSans-Bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/OpenSans-Bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/OpenSans-Bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/OpenSans-Bold-webfont.svg#svgBebas') format('svg'); /* Legacy iOS */
+}
+
+
+
+._jsPlumb_drag_select * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/** OPEN SANS FONT **/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src:local('Open Sans'), 
+        local('OpenSans'),
+        url("OpenSans-Regular.ttf") format('truetype'),
+        url("OpenSans.woff") format('woff');
+}
+
+
+body {   
+    background-color: whitesmoke;
+}
+#main {  
+    font-size: 80%;    
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;  
+    height: 600px;
+    text-align: center;
+    position: relative;
+    max-width: 1200px;
+    max-height: 1000px;
+}
+
+.window, .label {   
+    text-align:center;
+    z-index:24;
+    cursor:pointer;
+
+}
+
+.window {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #e0e0e0 30%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(30%,#e0e0e0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e0e0e0 30%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#e0e0e0 30%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#e0e0e0 30%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#e0e0e0 30%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+
+
+    border:2px solid #000;
+    border-radius:0.5em;        
+    position:absolute;    
+    color:black;
+    padding:0.5em;
+    width:100px; 
+    height:80px;
+    line-height: 80px;
+    -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,1);
+}
+
+.inner{
+
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #2d2d2d 31%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(31%,#2d2d2d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#2d2d2d 31%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#2d2d2d 31%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#2d2d2d 31%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#2d2d2d 31%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2d2d2d',GradientType=0 ); /* IE6-9 */
+    border:2px solid #000;
+    border-radius:0.5em;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,1);
+
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.inner-content{
+    transform: rotate(-90deg);
+    color: white;
+    width: 42px;
+    margin-left: -6px;
+    font-family: "OpenSansBold";
+    font-size: 12px;
+}
+
+
+/** Z-INDEX **/
+
+._jsPlumb_connector { z-index:18; }
+._jsPlumb_endpoint { z-index:19;}
+._jsPlumb_overlay { z-index:20; }

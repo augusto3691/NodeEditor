@@ -1,0 +1,393 @@
+{
+    "selector": ".window",
+    "connections": [{
+            "path": [{
+                    "start": [10, 0],
+                    "end": [50, 0]
+                }, {
+                    "start": [116.5, 0],
+                    "end": [116.5, 104]
+                }, {
+                    "start": [116.5, 104],
+                    "end": [183, 104]
+                }],
+            "segment": [{
+                    "params": {
+                        "x1": 7.5,
+                        "y1": 0,
+                        "x2": 52.5,
+                        "y2": 0
+                    },
+                    "type": "Straight"
+                }, {
+                    "params": {
+                        "x1": 50,
+                        "y1": 0,
+                        "x2": 106.5,
+                        "y2": 0
+                    },
+                    "type": "Straight"
+                }, {
+                    "params": {
+                        "r": 10,
+                        "x1": 106.5,
+                        "y1": 0,
+                        "x2": 116.5,
+                        "y2": 10,
+                        "cx": 106.5,
+                        "cy": 10,
+                        "ac": false
+                    },
+                    "radius": 10,
+                    "anticlockwise": false,
+                    "type": "Arc",
+                    "startAngle": 4.71238898038469,
+                    "endAngle": 0,
+                    "x1": 106.5,
+                    "y1": 0,
+                    "x2": 116.5,
+                    "y2": 10,
+                    "segment": 2,
+                    "sweep": 1.5707963267948966
+                }, {
+                    "params": {
+                        "x1": 116.5,
+                        "y1": 10,
+                        "x2": 116.5,
+                        "y2": 94
+                    },
+                    "type": "Straight"
+                }, {
+                    "params": {
+                        "r": 10,
+                        "x1": 116.5,
+                        "y1": 94,
+                        "x2": 126.5,
+                        "y2": 104,
+                        "cx": 126.5,
+                        "cy": 94,
+                        "ac": true
+                    },
+                    "radius": 10,
+                    "anticlockwise": true,
+                    "type": "Arc",
+                    "startAngle": 3.141592653589793,
+                    "endAngle": 1.5707963267948966,
+                    "x1": 116.5,
+                    "y1": 94,
+                    "x2": 126.5,
+                    "y2": 104,
+                    "segment": 2,
+                    "sweep": 1.5707963267948966
+                }, {
+                    "params": {
+                        "x1": 124,
+                        "y1": 104,
+                        "x2": 185.5,
+                        "y2": 104
+                    },
+                    "type": "Straight"
+                }, {
+                    "params": {
+                        "x1": 183,
+                        "y1": 104,
+                        "x2": 223,
+                        "y2": 104
+                    },
+                    "type": "Straight"
+                }],
+            "connectorType": "Flowchart",
+            "connectorAttr": {},
+            "connectionId": "con_20",
+            "sourceId": "window1",
+            "targetId": "window2",
+            "paintStyle": {
+                "strokeStyle": "blue",
+                "lineWidth": 5
+            },
+            "endpointStyle": [{
+                    "fillStyle": "blue"
+                }, {
+                    "fillStyle": "blue"
+                }],
+            "hoverPaintStyle": null,
+            "endpoint": [["Dot", {
+                        "anchor": {
+                            "x": 1,
+                            "y": 0.5,
+                            "elementId": "window1",
+                            "cssClass": "",
+                            "userDefinedLocation": null,
+                            "orientation": [0, 0],
+                            "lastReturnValue": null,
+                            "offsets": [0, 0],
+                            "timestamp": "1426552241293",
+                            "isSelective": true,
+                            "isDynamic": true,
+                            "anchors": [{
+                                    "x": 1,
+                                    "y": 0.5,
+                                    "elementId": "window1",
+                                    "cssClass": "",
+                                    "userDefinedLocation": null,
+                                    "orientation": [1, 0],
+                                    "lastReturnValue": [18, 126],
+                                    "offsets": [0, 0],
+                                    "timestamp": "1426552241293",
+                                    "id": "anchor_1",
+                                    "type": "Right"
+                                }],
+                            "jsPlumbInstance": {
+                                "Defaults": {
+                                    "Anchor": "BottomCenter",
+                                    "Anchors": [null, null],
+                                    "ConnectionsDetachable": true,
+                                    "ConnectionOverlays": [],
+                                    "Connector": "Bezier",
+                                    "Container": null,
+                                    "DoNotThrowErrors": false,
+                                    "DragOptions": {},
+                                    "DropOptions": {},
+                                    "Endpoint": "Dot",
+                                    "EndpointOverlays": [],
+                                    "Endpoints": [null, null],
+                                    "EndpointStyle": {
+                                        "fillStyle": "#456"
+                                    },
+                                    "EndpointStyles": [null, null],
+                                    "EndpointHoverStyle": null,
+                                    "EndpointHoverStyles": [null, null],
+                                    "HoverPaintStyle": null,
+                                    "LabelStyle": {
+                                        "color": "black"
+                                    },
+                                    "LogEnabled": false,
+                                    "Overlays": [],
+                                    "MaxConnections": 1,
+                                    "PaintStyle": {
+                                        "lineWidth": 8,
+                                        "strokeStyle": "#456"
+                                    },
+                                    "ReattachConnections": false,
+                                    "RenderMode": "svg",
+                                    "Scope": "jsPlumb_DefaultScope"
+                                },
+                                "logEnabled": false,
+                                "_connectionTypes": {},
+                                "_endpointTypes": {},
+                                "connectorClass": "_jsPlumb_connector",
+                                "hoverClass": "_jsPlumb_hover",
+                                "endpointClass": "_jsPlumb_endpoint",
+                                "endpointConnectedClass": "_jsPlumb_endpoint_connected",
+                                "endpointFullClass": "_jsPlumb_endpoint_full",
+                                "endpointDropAllowedClass": "_jsPlumb_endpoint_drop_allowed",
+                                "endpointDropForbiddenClass": "_jsPlumb_endpoint_drop_forbidden",
+                                "overlayClass": "_jsPlumb_overlay",
+                                "draggingClass": "_jsPlumb_dragging",
+                                "elementDraggingClass": "_jsPlumb_element_dragging",
+                                "sourceElementDraggingClass": "_jsPlumb_source_element_dragging",
+                                "targetElementDraggingClass": "_jsPlumb_target_element_dragging",
+                                "endpointAnchorClassPrefix": "_jsPlumb_endpoint_anchor",
+                                "hoverSourceClass": "_jsPlumb_source_hover",
+                                "hoverTargetClass": "_jsPlumb_target_hover",
+                                "dragSelectClass": "_jsPlumb_drag_select",
+                                "Anchors": {},
+                                "Connectors": {
+                                    "svg": {},
+                                    "vml": {}
+                                },
+                                "Endpoints": {
+                                    "svg": {},
+                                    "vml": {}
+                                },
+                                "Overlays": {
+                                    "svg": {},
+                                    "vml": {}
+                                },
+                                "ConnectorRenderers": {},
+                                "SVG": "svg",
+                                "VML": "vml",
+                                "connectorsInitialized": true,
+                                "log": null,
+                                "targetEndpointDefinitions": {},
+                                "sourceEndpointDefinitions": {},
+                                "dragManager": {},
+                                "Segments": {
+                                    "svg": {
+                                        "SegmentRenderer": {}
+                                    },
+                                    "vml": {
+                                        "SegmentRenderer": {}
+                                    }
+                                },
+                                "vml": {},
+                                "continuousAnchorFactory": {},
+                                "anchorManager": {},
+                                "currentlyDragging": false
+                            },
+                            "locked": false,
+                            "id": "anchor_2"
+                        }
+                    }], ["Dot", {
+                        "anchor": {
+                            "x": 0,
+                            "y": 0.5,
+                            "elementId": "window2",
+                            "cssClass": "",
+                            "userDefinedLocation": null,
+                            "orientation": [0, 0],
+                            "lastReturnValue": null,
+                            "offsets": [0, 0],
+                            "timestamp": "1426552241293",
+                            "isSelective": true,
+                            "isDynamic": true,
+                            "anchors": [{
+                                    "x": 0,
+                                    "y": 0.5,
+                                    "elementId": "window2",
+                                    "cssClass": "",
+                                    "userDefinedLocation": null,
+                                    "orientation": [-1, 0],
+                                    "lastReturnValue": [251, 230],
+                                    "offsets": [0, 0],
+                                    "timestamp": "1426552241293",
+                                    "id": "anchor_10",
+                                    "type": "Left"
+                                }],
+                            "jsPlumbInstance": {
+                                "Defaults": {
+                                    "Anchor": "BottomCenter",
+                                    "Anchors": [null, null],
+                                    "ConnectionsDetachable": true,
+                                    "ConnectionOverlays": [],
+                                    "Connector": "Bezier",
+                                    "Container": null,
+                                    "DoNotThrowErrors": false,
+                                    "DragOptions": {},
+                                    "DropOptions": {},
+                                    "Endpoint": "Dot",
+                                    "EndpointOverlays": [],
+                                    "Endpoints": [null, null],
+                                    "EndpointStyle": {
+                                        "fillStyle": "#456"
+                                    },
+                                    "EndpointStyles": [null, null],
+                                    "EndpointHoverStyle": null,
+                                    "EndpointHoverStyles": [null, null],
+                                    "HoverPaintStyle": null,
+                                    "LabelStyle": {
+                                        "color": "black"
+                                    },
+                                    "LogEnabled": false,
+                                    "Overlays": [],
+                                    "MaxConnections": 1,
+                                    "PaintStyle": {
+                                        "lineWidth": 8,
+                                        "strokeStyle": "#456"
+                                    },
+                                    "ReattachConnections": false,
+                                    "RenderMode": "svg",
+                                    "Scope": "jsPlumb_DefaultScope"
+                                },
+                                "logEnabled": false,
+                                "_connectionTypes": {},
+                                "_endpointTypes": {},
+                                "connectorClass": "_jsPlumb_connector",
+                                "hoverClass": "_jsPlumb_hover",
+                                "endpointClass": "_jsPlumb_endpoint",
+                                "endpointConnectedClass": "_jsPlumb_endpoint_connected",
+                                "endpointFullClass": "_jsPlumb_endpoint_full",
+                                "endpointDropAllowedClass": "_jsPlumb_endpoint_drop_allowed",
+                                "endpointDropForbiddenClass": "_jsPlumb_endpoint_drop_forbidden",
+                                "overlayClass": "_jsPlumb_overlay",
+                                "draggingClass": "_jsPlumb_dragging",
+                                "elementDraggingClass": "_jsPlumb_element_dragging",
+                                "sourceElementDraggingClass": "_jsPlumb_source_element_dragging",
+                                "targetElementDraggingClass": "_jsPlumb_target_element_dragging",
+                                "endpointAnchorClassPrefix": "_jsPlumb_endpoint_anchor",
+                                "hoverSourceClass": "_jsPlumb_source_hover",
+                                "hoverTargetClass": "_jsPlumb_target_hover",
+                                "dragSelectClass": "_jsPlumb_drag_select",
+                                "Anchors": {},
+                                "Connectors": {
+                                    "svg": {},
+                                    "vml": {}
+                                },
+                                "Endpoints": {
+                                    "svg": {},
+                                    "vml": {}
+                                },
+                                "Overlays": {
+                                    "svg": {},
+                                    "vml": {}
+                                },
+                                "ConnectorRenderers": {},
+                                "SVG": "svg",
+                                "VML": "vml",
+                                "connectorsInitialized": true,
+                                "log": null,
+                                "targetEndpointDefinitions": {},
+                                "sourceEndpointDefinitions": {},
+                                "dragManager": {},
+                                "Segments": {
+                                    "svg": {
+                                        "SegmentRenderer": {}
+                                    },
+                                    "vml": {
+                                        "SegmentRenderer": {}
+                                    }
+                                },
+                                "vml": {},
+                                "continuousAnchorFactory": {},
+                                "anchorManager": {},
+                                "currentlyDragging": false
+                            },
+                            "locked": false,
+                            "id": "anchor_11"
+                        }
+                    }]],
+            "anchors": [{
+                    "x": 1,
+                    "y": 0.5,
+                    "orientation": [-1, 0],
+                    "offset": [0, 0],
+                    "parameters": {}
+                }, {
+                    "x": 0,
+                    "y": 0.5,
+                    "orientation": [-1, 0],
+                    "offset": [0, 0],
+                    "parameters": {}
+                }],
+            "labelText": null,
+            "overlays": []
+        }],
+    "blocks": [{
+            "id": "window1",
+            "left": -74,
+            "top": 80,
+            "width": 79,
+            "heigth": null,
+            "html": "<strong>Node 1</strong>"
+        }, {
+            "id": "window2",
+            "left": 251,
+            "top": 184,
+            "width": 79,
+            "heigth": null,
+            "html": "<strong>Node 2</strong>"
+        }],
+    "endPoints": [{
+            "source": "window1",
+            "pos": "Right"
+        }, {
+            "source": "window1",
+            "pos": "Left"
+        }, {
+            "source": "window2",
+            "pos": "Right"
+        }, {
+            "source": "window2",
+            "pos": "Left"
+        }]
+}
